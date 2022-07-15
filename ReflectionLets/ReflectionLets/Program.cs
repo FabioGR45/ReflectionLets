@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,25 +23,19 @@ namespace ReflectionLets
             Console.WriteLine(builder);
         }
 
-        public static void CreateInstance()
+        public static void CreateInstance(object obj)
         {
-            var types = Assembly.GetExecutingAssembly().GetTypes();
-            foreach (var type in types)
-            {
-                if (type.IsAssignableTo(typeof(Student)) && type.IsClass && !type.IsAbstract)
-                {
-                    var instance = (Student)Activator.CreateInstance(type);
-                    var name = instance.Name;
-                    var university = instance.University;
-                    var number = instance.RollNumber;
+            var types = obj.GetType();
+            var builder = new StringBuilder();
 
-                    var newStudent = new Student("Fábio", "FMU", 12345);
-                    DisplayPublicProperties(newStudent);
-                    newStudent.DisplayInfo();
+            foreach (var type in types.GetProperties()) {
+
+                    builder.AppendLine(type.Name + ": " + type.GetValue(obj));
                 }
-            }
 
-
+            var newStudent = new Student("Fábio", "FMU", 12345);
+            DisplayPublicProperties(newStudent);
+            newStudent.DisplayInfo();
         }
 
         static void Main() {
@@ -53,7 +47,7 @@ namespace ReflectionLets
             DisplayPublicProperties(aluno1);
 
             //Estilo 2
-            CreateInstance();
+            CreateInstance(new Student("Fábio", "FMU", 12345));
         }
 
     }
