@@ -1,0 +1,15 @@
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\bin\Debug\net6.0\ReflectionLets.exe
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\bin\Debug\net6.0\ReflectionLets.deps.json
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\bin\Debug\net6.0\ReflectionLets.runtimeconfig.json
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\bin\Debug\net6.0\ReflectionLets.dll
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\bin\Debug\net6.0\ReflectionLets.pdb
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\obj\Debug\net6.0\ReflectionLets.csproj.AssemblyReference.cache
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\obj\Debug\net6.0\ReflectionLets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\obj\Debug\net6.0\ReflectionLets.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\obj\Debug\net6.0\ReflectionLets.AssemblyInfo.cs
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\obj\Debug\net6.0\ReflectionLets.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\obj\Debug\net6.0\ReflectionLets.dll
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\obj\Debug\net6.0\refint\ReflectionLets.dll
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\obj\Debug\net6.0\ReflectionLets.pdb
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\obj\Debug\net6.0\ReflectionLets.genruntimeconfig.cache
+C:\Users\andre\source\repos\ReflectionLets\ReflectionLets\obj\Debug\net6.0\ref\ReflectionLets.dll
